@@ -1,0 +1,10 @@
+
+body{
+    font-style: initial;
+    background-color: rgb(134, 114, 90);
+    background-image: url(https://cdn.siasat.com/wp-content/uploads/2024/05/Pushpa-2-2.jpg); size:0cm;
+}
+#greeting{
+    text-decoration: dotted underline;
+    color:brown;
+}

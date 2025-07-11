@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form task</title>
+        <style>
+            body{
+                background-color: rgb(171, 233, 233);
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"><br>
+            <label for ="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">Password:</label>
+            <input type="password" password="password"id="password"><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio"name="gender"id="male">
+            <label for="male">Male</label>
+            <input type="radio"name="gender"id="female"><!--radio type used used for single selection-->
+            <label for="female">Female</label><br>
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" name="hobbies" id="playing">
+            <label for="playing">Playing</label>
+            <input type="checkbox" name="hobbies" id="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" name="hobbies" id="singing">
+            <label for="singing">Singcing</label><br>
+            <input type="Submit" value="Submit" onclick="disp()">
+        </form>
+          <script>
+            function disp(){
+                alert('Form submitted');
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .box{
+            border:1px solid black;
+            width:500px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 390px;
+            background-color: white;
+        }
+        .form-box{
+            width: 95%;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid rgb(19,19,19);
+
+        }
+    </style>
+</head>
+    <body style="background-color: aquamarine;">
+         <h1 style="text-align:center;"> Registration Form</h1>
+         <form>
+    <label for="name">Name</label><br>
+    <input type="text"name="name" id="name"placeholder="Enter your name" class="form-box" required><br>
+    <label for="email">Email</label><br>
+    <input type="email"name="email" id="email"placeholder="Enter your email" class="form-box" required><br>
+    <label for="age">Age</label><br>
+    <input type="age"name="age" id="age"placeholder="Enter your age" class="form-box" required><br>
+    <label for="option">Which option best describes you?</label><br>
+    <select name="option" id="option">
+    <option value="Select your option">Select your option</option>
+    <option value="student">Student</option>
+    <option value="Graduate">Graduate</option>
+    </select><br>
+    <label for="Friend">Would you recommend to be a friend?</label><br>
+    <input type="radio"name="friend" id="friend">
+    <label for="yes">Yes</label><br>
+    <input type="radio"name="friend" id="friend">
+    <label for="no">No</label><br>
+    <input type="radio"name="friend" id="friend">
+    <label for="may be">May be</label><br>
+    <label for="lang">Language and Framework known (check all that apply)</label><br>
+    <input type="checkbox" name="lang" id="c">
+    <label for="c">C</label><br>
+    <input type="checkbox" name="lang" id=c++>
+    <label for="c++">C++</label><br>
+    <input type="checkbox" name="lang" id="c#">
+    <label for="c#">C#</label><br>
+    <input type="checkbox"name="lang" id="java">
+    <label for="java">Java</label><br>
+    <input type="checkbox" name="lang" id="python">
+    <label for="python">Python</label><br>
+    <input type="checkbox"name="lang" id="javascript">
+    <label for="javascript">Javascript</label><br>
+    <input type="checkbox" name="lang" id="react">
+    <label for="react">React</label><br>
+    <input type="checkbox" name="lang" id="angular">
+    <label for="Angular">Angular</label><br>
+    <input type="checkbox" name="lang" id="Django">
+    <label for="django">Django</label><br>
+    <input type="checkbox" name="lang" id="spring">
+    <label for="spring">Spring</label><br>
+    <label for="msg">Any comments or Suggestions</label><br><br>
+    <textarea type="message" name="msg" id="msg" placeholder="Enter your comment here" class="form-box"style="heigth:100px;"></textarea><br>
+    <input type="submit" value="submit" class="form-box" style="background-color: gold;">
+   </div> 
+</body>
+</html>
